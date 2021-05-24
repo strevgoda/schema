@@ -23,6 +23,7 @@ var driverDialect = map[string]dialect{
 	"*pq.Driver":                   postgresDialect{}, // github.com/lib/pq
 	"*stdlib.Driver":               postgresDialect{}, // github.com/jackc/pgx
 	"*clickhouse.chDriver":         postgresDialect{}, // github.com/mailru/go-clickhouse
+	"*clickhouse.bootstrap":        postgresDialect{}, // github.com/ClickHouse/clickhouse-go
 	"*pgsqldriver.postgresDriver":  postgresDialect{}, // github.com/jbarham/gopgsqldriver
 	"*gosnowflake.SnowflakeDriver": postgresDialect{}, // github.com/snowflakedb/gosnowflake
 	"*mysql.MySQLDriver":           mysqlDialect{},    // github.com/go-sql-driver/mysql
