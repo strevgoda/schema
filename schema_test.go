@@ -6,7 +6,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/jimsmart/schema"
+	"github.com/strevgoda/schema"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
